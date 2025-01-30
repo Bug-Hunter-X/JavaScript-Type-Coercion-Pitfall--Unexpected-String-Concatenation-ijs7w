@@ -1,0 +1,2 @@
+function foo(a,b){return a+b;}console.log(foo(1, "2")); //Output: 12
+This is because JavaScript does not throw an error when you add a number and a string. It converts the number to a string and concatenates the two strings.
